@@ -25,7 +25,7 @@ module.exports = {
         "@typescript-eslint/explicit-function-return-type": "warn",
         "@typescript-eslint/explicit-member-accessibility": "error",
         "no-unused-vars": "off",
-        "@typescript-eslint/no-unused-vars": "error",
+        "@typescript-eslint/no-unused-vars": "warn",
         "@typescript-eslint/no-use-before-define": "error",
         "@typescript-eslint/no-var-requires": "error"
     }
