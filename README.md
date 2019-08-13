@@ -5,9 +5,9 @@
 ## Usage
 
 ```bash
-$ preact create kencyke/preact-tailwind-storybook your-project
+$ preact create kencyke/preact-tailwind-storybook your-project --yarn
 $ cd your-project
-$ yarn
+$ yarn watch
 ```
 
 ## Acknowledgements
