@@ -1,11 +1,11 @@
-# preact-tmpl
+# preact-tailwind-storybook
 
 > A [preact-cli](https://github.com/developit/preact-cli) template with [tailwindcss](https://tailwindcss.com/) and [storybook](https://storybook.js.org/).
 
 ## Usage
 
 ```bash
-$ preact create kencyke/preact-tmpl your-project
+$ preact create kencyke/preact-tailwind-storybook your-project
 $ cd your-project
 $ yarn
 ```
