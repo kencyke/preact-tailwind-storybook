@@ -6,8 +6,8 @@
   "scripts": {
     "build": "preact build",
     "watch": "preact watch",
-    "lint": "tslint -p tsconfig.json",
-    "lint:fix": "tslint -p tsconfig.json --fix",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
     "test": "jest",
     "test:compile": "tsc --noEmit",
     "storybook": "start-storybook -p 6001 -c .storybook"
@@ -19,6 +19,11 @@
     "@storybook/preact": "^5.1.11",
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "jest": "^24.8.0",
     "preact-cli": "3.0.0-rc.4",
     "preact-cli-postcss": "^1.1.1",
@@ -28,9 +33,6 @@
     "purgecss-webpack-plugin": "^1.5.0",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.0.4",
-    "tslint": "^5.18.0",
-    "tslint-config-prettier": "^1.18.0",
-    "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.3"
   },
   "dependencies": {
