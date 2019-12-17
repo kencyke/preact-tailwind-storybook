@@ -3,17 +3,20 @@ import { Component, h } from "preact";
 export default class App extends Component {
     public render() {
         return (
-            <div class="font-sans leading-normal">
-                <div class="container max-w-md mx-auto m-8 p-8 rounded-lg shadow-md bg-grey-lightest">
-                    <h1 class="text-purple mb-3 font-black">
+            <div class="py-20" style="background: linear-gradient(90deg, #667eea 0%, #764ba2 100%)">
+                <div class="container mx-auto px-6">
+                    <h1 class="text-4xl font-bold mb-2 text-white">
                         Preact-cli + Tailwind!
                     </h1>
-                    <div class="text-grey-darker">
+                    <div class="text-2xl mb-8 text-gray-200">
                         <p>
                             You're all set with tailwind. Now go ahead and build
                             something cool! 😍
                         </p>
                     </div>
+                    <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
+                        Button
+                    </button>
                 </div>
             </div>
         );
